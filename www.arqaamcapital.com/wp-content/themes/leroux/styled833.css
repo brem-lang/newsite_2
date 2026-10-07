@@ -1,0 +1,73 @@
+/*
+Media Edge Agency
+*/
+
+body.rtl *{
+	font-family: "Cairo", Sans-serif !important;
+}
+body.rtl.qodef-header-standard--right #qodef-page-header-inner .qodef-header-navigation{
+	margin-right: auto;
+	margin-left: 0;
+}
+body.rtl.qodef-header-standard--right .qodef-header-sticky-inner .qodef-header-logo-link, body.rtl.qodef-mobile-header--standard #qodef-page-mobile-header-inner .qodef-mobile-header-logo-link, body.rtl #qodef-page-footer .qodef-alignment--left .widget img{
+	margin-left: auto;
+	margin-right: 0;
+}
+body.rtl #qodef-page-header .qodef-widget-holder{
+	margin-left: 0;
+	margin-right: 32px;
+}
+body.rtl #qodef-page-header .qodef-widget-holder .widget:first-child{
+	margin-right: 0;
+	margin-left: 12px;
+}
+body.rtl .qodef-button.qodef-html--link .qodef-m-arrow, body.rtl .qodef-theme-button .qodef-m-arrow, body.rtl button[type=submit] .qodef-m-arrow, body.rtl input[type=submit] .qodef-m-arrow{
+	margin-right: 7px;
+	margin-left: 0;
+	transform: rotatey(180deg);
+}
+body.rtl #qodef-page-footer .qodef-alignment--left{
+	text-align: right;
+}
+body.rtl .qodef-header-navigation>ul>li{
+	margin-left: 8px;
+	margin-right: 8px;
+}
+body.rtl .qodef-header-navigation>ul>li:last-child{
+	margin-left: 0;
+}
+body.rtl .qodef-header-navigation>ul>li:first-child{
+	margin-right: 0;
+}
+body.rtl .wpcf7 input[type="url"], body.rtl .wpcf7 input[type="email"], body.rtl .wpcf7 input[type="tel"], body.rtl .wpcf7-form{
+	direction: rtl;
+}
+body.rtl .qodef-mobile-header-navigation ul li .qodef-menu-item-arrow{
+	left: 0;
+	right: initial;
+	transform: rotatey(180deg);
+}
+
+body.rtl .qodef-header-navigation ul li.qodef-menu-item--narrow ul {
+    left: auto;
+    right: 0;
+}
+
+body.rtl .qodef-header-navigation ul li .qodef-menu-item-arrow {
+    right: auto;
+    left: 23px;
+    transform: rotate(270deg);
+}
+
+body.rtl .qodef-header-navigation ul li.qodef-menu-item--narrow ul ul {
+    left: auto;
+    right: 100%;
+}
+
+body.rtl .qodef-header-navigation ul li.qodef-menu-item--narrow ul li.menu-item-has-children:hover .qodef-menu-item-arrow.qodef-svg--menu-arrow {
+    transform: rotate(225deg) translateZ(0)
+}
+
+body.rtl .qodef-blog.qodef-item-layout--compact.qodef-skin--light .qodef-blog-item .qodef-e-title:hover a {
+    color: #000000;
+}
